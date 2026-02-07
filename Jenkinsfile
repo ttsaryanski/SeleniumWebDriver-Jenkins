@@ -29,7 +29,7 @@ pipeline{
         }
          stage("Run Tests"){
             parallel{
-                failFast true
+                failFast: true
                 stage("Unit tests"){
                     steps{
                         bat 'dotnet test TestProject1/TestProject1.csproj --no-build --verbosity normal'
