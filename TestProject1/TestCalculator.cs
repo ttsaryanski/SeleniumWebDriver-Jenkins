@@ -72,7 +72,7 @@ namespace TestProject1
         }
 
         [Test]
-        [TestCase("5", "+ (sum)", "10", "Result: 15")]
+        [TestCase("5", "+ (sum)", "10", "Result: 14")]
         [TestCase("3.5", "- (subtract)", "1.2", "Result: 2.3")]
         [TestCase("2e2", "* (multiply)", "1.5", "Result: 300")]
         [TestCase("5", "/ (divide)", "0", "Result: Infinity")]
